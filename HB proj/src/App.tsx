@@ -19,50 +19,50 @@ const COLLECTIONS = [
   {
     title: "Birthday Gifts",
     description: "Make their special day unforgettable with our curated birthday selection.",
-    image: "/images/Birthday.jpg"
+    image: "/Birthday.jpg"
   },
   {
     title: "Soft Toys",
     description: "Cuddly companions for all ages, from classic bears to modern plushes.",
-    image: "/images/softtoys.jpg"
+    image: "/softtoys.jpg"
   },
   {
     title: "Photo Frames",
     description: "Preserve your most precious memories in our elegant designer frames.",
-    image: "/images/frames.jpg"
+    image: "/frames.jpg"
   },
   {
     title: "Decorative Items",
     description: "Unique pieces to add a touch of elegance and personality to any home.",
-    image: "/images/cdecorative.jpg"
+    image: "/cdecorative.jpg"
   },
   {
     title: "Greeting Cards",
     description: "Express your feelings with our extensive range of artistic cards.",
-    image: "/images/Greeting cards.jpg"
+    image: "/Greeting cards.jpg"
   },
   {
     title: "Festival Gifts",
     description: "Celebrate traditions with our special seasonal and festive collections.",
-    image: "/images/festival.jpg"
+    image: "/festival.jpg"
   },
   {
     title: "Customized gifts",
     description: "Personalized treasures that carry a deeper meaning for your loved ones.",
-    image: "/images/customized gifts.jpeg"
+    image: "/customized gifts.jpeg"
   },
   {
     title: "& Many More",
     description: "Explore our vast collection of unique treasures and seasonal surprises.",
-    image: "/images/and many more.jpeg"
+    image: "/and many more.jpeg"
   }
 ];
 
 const GALLERY_IMAGES = [
-  "/images/gallery-1.jpg",
-  "/images/gallery-2.jpg",
-  "/images/gallery-3.jpg",
-  "/images/gallery-4.jpg"
+  "/gallery-1.jpg",
+  "/gallery-2.jpg",
+  "/gallery-3.jpg",
+  "/gallery-4.jpg"
 ];
 
 export default function App() {
@@ -157,7 +157,7 @@ export default function App() {
       <section id="hero" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/background.jpg" 
+            src="/background.jpg" 
             alt="Heartbeats Gallery Interior" 
             className="w-full h-full object-cover brightness-50"
             referrerPolicy="no-referrer"
